@@ -1,0 +1,116 @@
+*{padding:0px;margin:0px;}
+a{text-decoration: none;color:#000;}
+ul{list-style-type: none}
+body{
+	background: url(../img/bg.png);
+}
+/*轮播图*/ 
+.banner ul{
+	margin:0;
+	padding:0 0 20px 30px;
+}
+.banner{
+	max-width: 1200px;
+	overflow:hidden;
+	height: 560px;
+} 
+ .banner{
+	margin:auto;
+}
+.mySlideshow .animated{
+	position:absolute;
+}
+.first{
+	background:url("../img/banner-bd-1.jpg") center no-repeat;
+} 
+ .first a,
+.first img{
+	display:block;
+}
+.first a{
+	top:80px;
+	left:39%;
+	margin-left:-165px;
+}
+.first div{
+	font-family:'Open Sans Condensed', sans-serif;
+	font-size:50px;
+	bottom:80px;
+	left:39%;
+	width:320px;
+	text-align:center;
+	margin-left:-160px;
+}
+.second{
+	background:url("../img/banner-bd-2.jpg") center no-repeat;
+}
+.second img{
+	top: 160px;
+	right: 19%;
+}
+.third{
+	background:url("../img/banner-bd-3.jpg") center no-repeat;
+}
+.third img{
+	top:100px;
+	left: 23%;
+}
+.fourth{
+	background:url("../img/banner-bd-4.jpg") center no-repeat;
+}
+.fourth img{
+	top:320px;
+	right:8%;
+}
+.fifth{
+	background:url("../img/banner-bd-5.jpg") center no-repeat;
+}
+.fifth img{
+	top:120px;
+	left:21%;
+}
+/*轮播图*/
+.gg{
+	margin: 15px auto 5px;
+}
+.gg img{
+	width: 100%;
+}
+
+.f-main-con{/*margin:10px;*/padding:10px;}
+.f-item{background-color:#f1c02a;border-radius:5px;overflow:hidden;clear:both;}
+.f-main-con img{float:right;width:100%;}
+.f-item .tx{height:180px;float:right;}
+.f-main-con h4{color:#fff;padding:15px;font-weight:normal;font-size:18px;background-color:rgb(107, 59, 17); text-align:center;}
+.f-main-con p{color:#fff;font-size:14px;padding:20px; text-indent:2em;/*background-color:rgba(32,110,24,0.5);*/
+}	
+.clear{
+	clear: both;
+}
+.f-main-top .right{
+	margin-top: 15px;
+}
+
+@media (min-width:768px ){
+div{
+	box-sizing: border-box;
+}
+.gg{
+	max-width: 1200px;
+}
+.gg img{
+	width: 100%;
+}
+
+.f-main-con{width:33.33333%;float:left;}
+.f-main-con img{float:none;width:100%;height:auto;}
+.f-main-con h4{height:20px;}
+.f-main-con p{text-align:left;}  
+.f-main-top .right{
+	margin-top: 0px;
+}
+	
+}
+@media(min-width:1200px){
+
+	}

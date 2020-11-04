@@ -1,0 +1,127 @@
+*{padding:0px;margin:0px;}
+a{text-decoration: none;color:#000;}
+ul{list-style-type: none}
+
+/*返回顶部*/
+.Gotop{position:fixed; bottom:66px; right:25px; width:106px; height:70px; display:none;}
+.Gotop img{
+	height: 120px;
+	width: 120px;
+}
+
+.big{
+	position: relative;
+	margin:0 auto;
+	max-width: 1200px;
+	background-color: #fff;
+}
+
+/**/
+.header{
+	height:40px;
+	padding:10px 20px;
+	text-align: right;
+	position: relative;
+	background-color: white;
+}
+.header label{
+	font-size: 30px;
+}
+.logo{
+	float:left;	
+}
+.logo img{
+	height: 45px;
+	position: absolute;
+}
+#toggle{
+	display: none;
+}
+/*相邻兄弟选择器input+.nav，选择在input后的。input:checked 伪类选择器，在此其表示复选框在选中的状态*/
+#toggle+.nav{
+	display: none;
+}
+#toggle:checked+.nav {
+	display: block;
+}
+.nav{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	z-index: 999;
+	top: 100%;
+	left: 0;
+	right: 0;
+	/*夫相子绝，header相对定位，nav绝对定位，靠top等定位置*/
+}
+.nav a{
+	display: block;
+	padding: 8px 0;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	border-top: 1px;
+}
+.nav a:hover{
+	background-color: rgba(0,0,0,0.2);
+}
+
+
+.gg{
+	max-width: 1200px;
+}
+.gg img{
+	width: 100%;
+}
+
+   
+
+.footer{
+	 margin:0px auto 0;
+	 text-align: center;
+	 padding:40px 0;
+	 background-color:rgba(69,164,32,0.8);
+	 color:#fff;
+	 font-size:16px;
+	 line-height: 25px;
+}
+.footer a{
+	 color:#fff;
+	 padding:0 10px;
+}
+
+
+@media (min-width:768px ){
+	.header{
+		height: 80px;
+		padding: 0px 20px;
+	}
+	.header label{
+		display: none;
+	}
+	.logo img{
+		height: 60px;
+		padding-top: 10px;
+	}
+	#toggle+.nav{
+		display: block;
+		position: static;/*恢复回来*/
+		float: right;
+		background: none;
+	}
+	.nav a{
+		float: left;
+		color:#000;
+		padding: 0 18px;
+		height: 80px;
+		line-height: 80px;
+	}
+	.nav a:hover{
+		background-color:rgba(249,210,29,0.70);
+	}
+	.dy a{
+		background-color:rgba(249,210,29,1.00);
+	}
+	.dy a:hover{
+		background-color:rgba(249,210,29,1.00);
+	}
+}

@@ -1,0 +1,338 @@
+*{padding:0px;margin:0px;}
+div{box-sizing:border-box;}
+a{text-decoration: none;color:#000;}
+ul{list-style-type: none}
+body{
+	background: url(../img/bg.png);
+}
+.header{
+		box-sizing: inherit;
+}
+/*轮播图*/ 
+.banner ul{
+	margin:0;
+	padding:0 0 20px 30px;
+}
+.banner{
+	max-width: 1200px;
+	overflow:hidden;
+	height: 560px;
+} 
+ .banner{
+	margin:auto;
+}
+.mySlideshow .animated{
+	position:absolute;
+}
+.first{
+	background:url("../img/banner-bw-1.jpg") center no-repeat;
+} 
+ .first a,
+.first img{
+	display:block;
+}
+.first a{
+	top:80px;
+	left:39%;
+	margin-left:-165px;
+}
+.first div{
+	font-family:'Open Sans Condensed', sans-serif;
+	font-size:50px;
+	bottom:80px;
+	left:39%;
+	width:320px;
+	text-align:center;
+	margin-left:-160px;
+}
+.second{
+	background:url("../img/banner-bw-2.jpg") center no-repeat;
+}
+.second img{
+	top: 160px;
+	right: 19%;
+}
+.third{
+	background:url("../img/banner-bw-3.jpg") center no-repeat;
+}
+.third img{
+	top:100px;
+	left: 23%;
+}
+.fourth{
+	background:url("../img/banner-bw-4.jpg") center no-repeat;
+}
+.fourth img{
+	top:320px;
+	right:8%;
+}
+.fifth{
+	background:url("../img/banner-bw-5.jpg") center no-repeat;
+}
+.fifth img{
+	top:120px;
+	left:21%;
+}
+/*轮播图*/
+.gg{
+	margin: 15px auto;
+}
+.gg img{
+	width: 100%;
+}
+
+.clear{clear:both;}
+.f-main-top{
+	/*height:260px;*/
+	margin-bottom:20px;
+	overflow:hidden;
+	}
+.f-main-top .left{
+	float: left;
+	height: 280px;
+	background-color:#d2f6fe;
+	border: dashed 3px #000;
+	border-radius:20px;
+	}
+p{
+	text-indent: 2em;
+	line-height: 20px;
+	}
+h3{
+	padding:0 0 10px 0;
+}
+h2{
+	font-family: "微软雅黑";
+	font-size: x-large;
+}
+.title-box{	
+	width:70%;
+	padding:10px 0 5px 0;
+	margin: 0 auto 10px;
+	text-align: center;
+	clear:both;
+}
+
+.f-main-top .left .txt{
+	padding:8%;
+	size:12px;
+	color:#000;
+	
+	}
+ 
+.f-main-top .right{
+	background-color: #dadada;
+	height: 280px;
+	margin-top:5px;
+	float: left;
+	border-radius:20px;
+	}
+.f-main-top .right .txt{
+	padding:8%;
+	size:16px;
+	color:#000;
+	
+	}
+	/*已灭绝的动物*/
+	
+.f-main-center{
+	margin-bottom:20px;
+	overflow:hidden;
+	/*height:400px;*/
+}
+/*.main-gai{
+	padding: 5px 10px;
+	background-color:#E53E40;
+	float: left;
+	width: 100%;
+}
+.main-con img{
+	border-radius:5px;
+	height: auto;
+	width: 100%;
+	min-height: 250px;
+}*/
+.ad1{
+	float:left;
+	width:100%;
+	height: 320px;margin:10px 0;
+	overflow:hidden;
+	background-image:url(../img/../img/台湾云豹.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+	}
+.ad2{
+	float:left;
+    width:100%;
+	height: 320px;margin:10px 0;
+	overflow:hidden;
+	background-image:url(../img/../img/渡渡鸟.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+	}
+	.ad3{
+	float:left;
+	width:100%;
+	height: 320px;margin:10px 0;
+	overflow:hidden;
+	background-image:url(../img/../img/大海雀.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	position:relative;
+			}
+.text{
+		/* 在此处添加transform变换代码 */
+		position:absolute;
+		bottom:-340px;
+		height:200px;
+		width:100%;
+		line-height:30px;
+		font-size:12px;
+		line-height:20px;
+		color:#ffffff;
+		padding:6% 0;
+		background-color:rgba(0,0,0,0.4);
+		text-align:center;
+		transition:bottom 0.4s ease-out;		
+	}
+	.ad1:hover .text{bottom:0px;background-color:rgba(0, 0, 0, 0.5);}
+	.ad2:hover .text{bottom:0px;background-color:rgba(0, 0, 0, 0.5);}
+	.ad3:hover .text{bottom:0px;background-color:rgba(0, 0, 0, 0.5);}
+	/*已灭绝的动物*/
+/**/
+/*正濒临灭绝的动物*/
+.f-main-bottom-item{float:left;margin:1% 0;background-color:#f2f2f2;/*border:2px dashed #000000;*/}
+.f-main-bottom-item  img{
+	float:left;
+	width:56%;
+	height:200px;	
+	}
+.f-main-bottom-item  h4{
+color:#fff;
+font-weight:normal;
+font-size:16px;
+background-color:rgb(120,150,162);
+ text-align:center;
+ padding:6% 0;
+ }
+.f-main-bottom-item p{
+color:#000;
+font-size:12px;
+text-indent:2em;
+padding:6% 2% 0 4%;
+
+/*background-color:rgba(32,110,24,0.5);*/}
+.f-main-bottom-item .tx{
+	float:left;
+	width:44%;
+	height:180px;	
+	}
+	/*正濒临灭绝的动物*/
+.f-main-top .right{
+	margin-top: 15px;
+}
+@media (min-width:768px ){
+
+.gg{
+	margin: 15px auto;
+	max-width: 1200px;
+}
+.gg img{
+	width: 100%;
+}
+.f-main-top .left{
+	float: left;
+	height: 240px;
+	width: 33%;
+	background-color:#c6e9f1;
+	border: dashed 3px #000;
+	border-radius:20px;
+	  /*background-image: url(../img/1.png);
+	background-repeat: no-repeat;
+	back*/
+	
+	}
+.f-main-top .left .txt{
+	color: #000;
+	font-size: 14px;
+	}
+.f-main-top .right{
+	float: left;
+	background-color: #c2c8c5;
+	width: 65%;
+	height: 240px;
+	margin-left:15px;
+	border-radius:20px;
+	margin-top: 0px;
+	}
+	.f-main-top .right .txt{
+	padding: 5%;
+	color: #000;
+	font-size: 16px;
+	}
+/*.main-gai{
+		width: 33.33333%;
+		/*float: left;
+	}
+.main-con img{
+	width: 100%;
+	height: auto;
+	}
+	*/
+
+.ad1{width: 32%;height:320px;margin-left:10px;}
+.ad2{width: 32%;height:320px;margin-left:10px;}
+.ad3{width: 32%;height:320px;margin-left:10px;}
+.text{
+	/* 在此处添加transform变换代码 */
+	position:absolute;
+	bottom:-200px;
+	height:200px;
+	width:100%;
+	line-height:30px;
+	font-size:12px;
+	color:#ffffff;
+	line-height:20px;
+	padding:8% 0;
+	background-color:rgba(0, 0, 0, 0.5);
+	text-align:center;
+	transition:bottom 0.4s ease-out;
+		}
+	.ad1:hover .text{bottom:0px;background-color:rgba(82,82,46,0.6);}
+	.ad2:hover .text{bottom:0px;background-color:rgba(82,82,46,0.6);}
+	.ad3:hover .text{bottom:0px;background-color:rgba(82,82,46,0.6);}
+	/*正濒临灭绝的动物*/
+	.f-main-bottom-item{float:left;width:50%;}
+	.f-main-bottom-item  img{
+	float:left;
+	width:56%;
+	height:200px;	
+	}
+	.f-main-bottom-item p{
+	color:#000;
+	font-size:14px;
+	
+	}
+	.f-main-bottom-item .tx{
+	float:left;
+	width:44%;
+	height:200px;	
+	}
+	/*正濒临灭绝的动物*/
+	h2{
+		font-family: "微软雅黑";
+		font-size: xx-large;
+	}
+	.title-box{	
+		width:36%;
+		padding:10px 0 5px 0;
+		margin: 0 auto 10px;
+		text-align: center;
+		clear:both;
+	}
+}
+@media(min-width:1200px){
+	
+	}
